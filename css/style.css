@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url("../fonts/OpenSans-Light.eot");
+  src: url("../fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url("../fonts/OpenSans-Regular.eot");
+  src: url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Big John PRO';
+  src: url("../fonts/BigJohnPRO-Regular.eot");
+  src: local("../fonts/Big John PRO Regular"), local("BigJohnPRO-Regular"), url("../fonts/BigJohnPRO-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/BigJohnPRO-Regular.woff2") format("woff2"), url("../fonts/BigJohnPRO-Regular.woff") format("woff"), url("../fonts/BigJohnPRO-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Big John PRO';
+  src: url("../fonts/BigJohnPRO-Bold.eot");
+  src: local("../fonts/Big John PRO Bold"), local("BigJohnPRO-Bold"), url("../fonts/BigJohnPRO-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/BigJohnPRO-Bold.woff2") format("woff2"), url("../fonts/BigJohnPRO-Bold.woff") format("woff"), url("../fonts/BigJohnPRO-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Big John PRO';
+  src: url("../fonts/BigJohnPRO-Light.eot");
+  src: local("../fonts/Big John PRO Light"), local("BigJohnPRO-Light"), url("../fonts/BigJohnPRO-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/BigJohnPRO-Light.woff2") format("woff2"), url("../fonts/BigJohnPRO-Light.woff") format("woff"), url("../fonts/BigJohnPRO-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: #f8cd00;
+  position: absolute;
+}
+
+.nav {
+  position: relative;
+  margin-top: 64px;
+}
+
+.nav a {
+  font-family: 'Big John PRO';
+  font-weight: 1000;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 17px 30px;
+}
+
+.nav a:hover {
+  background: #000000;
+  color: #f8cd00;
+  border-radius: 25px;
+}
+/*# sourceMappingURL=style.css.map */
