@@ -50,17 +50,73 @@
   margin: 0 auto;
 }
 
+.spans {
+  margin-top: -260px;
+}
+
+.spans_items {
+  position: absolute;
+  height: 5px;
+  width: 25px;
+  background: #000000;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.spans_items:nth-child(2) {
+  margin-top: 40px;
+}
+
+.spans_items:nth-child(3) {
+  margin-top: 80px;
+}
+
+.spans_items:nth-child(4) {
+  margin-top: 120px;
+}
+
+.spans_items:nth-child(5) {
+  margin-top: 160px;
+}
+
+.spans_items:nth-child(6) {
+  margin-top: 200px;
+}
+
+.spans_items:nth-child(7) {
+  margin-top: 240px;
+}
+
+.spans_items:nth-child(8) {
+  margin-top: 280px;
+}
+
+.spans_items:nth-child(9) {
+  margin-top: 320px;
+}
+
+.spans_items:nth-child(10) {
+  margin-top: 360px;
+}
+
+.span_border {
+  padding: 24px 8px;
+  border: 5px solid black;
+  margin-top: 132px;
+  margin-left: -1px;
+  border-radius: 50px;
+  position: absolute;
+}
+
 .header {
   width: 100%;
-  height: 100vh;
+  height: 784px;
   background: #ffd500;
-  position: absolute;
-  z-index: -9;
+  position: relatives;
   overflow: hidden;
 }
 
 .nav {
-  position: relative;
   margin-top: 64px;
 }
 
@@ -99,16 +155,20 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  z-index: -9;
+  z-index: 4;
 }
 
 .hero_donate img {
   width: 90%;
 }
 
+.hero_container {
+  z-index: 8;
+}
+
 .hero_tomato {
   position: absolute;
-  z-index: -9;
+  z-index: 4;
   right: -100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -224,5 +284,140 @@
   background: #000000;
   position: absolute;
   z-index: -1;
+}
+
+.block-about {
+  position: relative;
+}
+
+.about_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 125px;
+  margin-bottom: 141px;
+}
+
+.about_title h1 {
+  font-family: 'Big John PRO';
+  font-size: 77px;
+  letter-spacing: 1.2px;
+  font-weight: 1000;
+  width: 503px;
+  height: 59px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.about_title h1:before {
+  content: '';
+  position: absolute;
+  width: 440px;
+  bottom: -80%;
+  left: -10px;
+  height: 5px;
+  background: #000000;
+}
+
+.about_title h1:after {
+  content: '';
+  position: absolute;
+  width: 440px;
+  bottom: -95%;
+  left: 45px;
+  height: 5px;
+  background: #000000;
+}
+
+.about_title p {
+  font-family: 'Open Sans Light';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  width: 550px;
+  height: 108px;
+}
+
+.about_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_items_link {
+  margin-right: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_items_link h3 {
+  font-family: 'Big John PRO';
+  margin-bottom: 29px;
+  margin-top: 45px;
+  text-transform: uppercase;
+}
+
+.about_items_link p {
+  font-family: 'Open Sans Light';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: center;
+  height: 89px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.about_items_link_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 217px;
+  height: 182px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 43px;
+}
+
+.items_span {
+  height: 5px;
+  width: 25px;
+  background: #000000;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.items_span:nth-child(3) {
+  margin-top: 35px;
 }
 /*# sourceMappingURL=style.css.map */

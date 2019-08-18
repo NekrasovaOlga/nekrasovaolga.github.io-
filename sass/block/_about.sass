@@ -1,0 +1,82 @@
+.block-about
+    position: relative
+.about
+    &_title
+        display: flex
+        width: 100%
+        justify-content: space-around
+        margin-top: 125px
+        margin-bottom: 141px
+        h1
+            +johan
+            font-size: 77px
+            letter-spacing: 1.2px
+            font-weight: 1000
+            width: 503px
+            height: 59px
+            margin-right: 10px
+            text-transform: uppercase
+            position: relative
+            &:before
+                content: ''
+                position: absolute
+                width: 440px
+                bottom: -80%
+                left: -10px
+                height: 5px
+                background: #000000
+            &:after
+                content: ''
+                position: absolute
+                width: 440px
+                bottom: -95%
+                left: 45px
+                height: 5px
+                background: #000000
+        p
+            +light
+            font-size: 14px
+            font-weight: 300
+            line-height: 30px
+            width: 550px
+            height: 108px
+    &_items
+        display: flex
+        width: 100%
+        justify-content: space-between
+        align-items: center
+        &_link
+            margin-right: 80px
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            h3
+             +johan
+             margin-bottom: 29px
+             margin-top: 45px
+             text-transform: uppercase
+            p
+             +light
+             font-size: 14px
+             font-weight: 300
+             line-height: 20px
+             text-align: center
+             height: 89px
+             display: flex
+             align-items: flex-start
+            &_img
+                display: flex
+                align-items: flex-end
+                width: 217px
+                height: 182px
+                justify-content: center
+                margin-bottom: 43px
+.items_span
+    height: 5px
+    width: 25px
+    background: #000000
+    transform: rotate(90deg)
+    &:nth-child(3)
+        margin-top: 35px
+
