@@ -1,8 +1,10 @@
 .header
     width: 100%
     height: 100vh
-    background: #f8cd00
+    background: #ffd500
     position: absolute
+    z-index: -9
+    overflow: hidden
 .nav
     position: relative
     margin-top: 64px
@@ -12,9 +14,106 @@
      text-transform: uppercase
      color: #000000
      text-decoration: none
-     font-size: 18px
-     padding: 17px 30px
+     font-size: 14px
+     padding: 17px 20px
      &:hover
          background: #000000
          color: #f8cd00
          border-radius: 25px
+
+.hero
+    position: relative
+    align-items: center
+    display: flex
+    width: 100%
+    justify-content: center
+    margin-top: 80px
+    &_donate
+        position: absolute
+        left: 0
+        bottom: 0
+        z-index: -9
+        img
+            width: 90%
+    &_tomato
+        position: absolute
+        z-index: -9
+        right: -100px
+        display: flex
+        justify-content: flex-end
+        
+        img
+            width: 90%
+    &_title
+        +johan
+        font-size: 50px
+        font-weight: 1000
+        letter-spacing: 1.5px
+        color: #000000
+        text-align: center
+        text-transform: uppercase
+    &_description
+        display: flex
+        justify-content: center
+        margin-top: 62px
+        &_img
+            position: relative
+            width: 328px
+            display: flex
+            justify-content: center
+            img
+                width: 80%
+            &:before
+                position: absolute
+                content: ''
+                width: 380px
+                height: 5px
+                top: 18%
+                left: 0                
+                background: #000000
+                z-index: -1
+            &:after
+                content: ''
+                width: 380px
+                display: block
+                height: 5px
+                left: -15%
+                top: 8%
+                background: #000000
+                position: absolute
+                z-index: -1
+    &_button
+        margin-top: 68px
+        display: flex
+        justify-content: center
+        
+    &_btn
+        position: relative
+        +johan
+        font-size: 18px
+        text-transform: uppercase
+        letter-spacing: 0.9px
+        font-weight: 1000
+        padding: 18px 28px
+        border-radius: 19px
+        border: 4px solid #000000
+        background-color: #fad663
+        &:before
+            position: absolute
+            content: ''
+            width: 297px
+            height: 5px
+            top: 55%
+            left: -30%
+            background: #000000
+            z-index: -1
+        &:after
+            content: ''
+            width: 297px
+            display: block
+            height: 5px
+            left: -50%
+            top: 35%
+            background: #000000
+            position: absolute
+            z-index: -1
