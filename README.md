@@ -1,2 +1,2 @@
 # pink_donate
-https://nekrasovaolga.github.io/index.html
+nekrasovaolga.github.io/index.html
